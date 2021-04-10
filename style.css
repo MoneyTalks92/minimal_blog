@@ -2,8 +2,8 @@ body {
     background-color: black;
     color: white;
     font-family: Verdana, Geneva, sans-serif;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    margin: 0;
 }
 
 .main-menu {
@@ -11,8 +11,8 @@ body {
     padding-bottom: 20px;
     border-bottom: 1px solid white;
     text-align: center;
-    margin-left: 500px;
-    margin-right: 500px;
+    width: 33%;
+    margin: 0 auto;
 }
 
 .main-menu-item {
@@ -26,41 +26,45 @@ body {
 
 main {
     background-color: rgba(128, 128, 128, 0.335);
-    margin-left: 240px;
-    margin-right: 240px;
-    margin-top: 50px;
+    margin: 50px 200px 0 200px;
     padding: 40px 30px;
 }
 
 h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px auto;
+    padding-top: 20px;
     font-size: 40px;
 }
 
 .created-date {
-    color: grey;
+    color: rgba(128, 128, 128, 0.472);
 }
 
 p {
     line-height: 150%;
 }
 
-.paragraph {
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.end {
     line-height: 150%;
 }
 
 .image-container {
+    padding-top: 20px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     width: 50%;
     text-align: center;
 }
 
 
 figcaption {
-    color: grey;
+    color: rgba(255, 255, 255, 0.644);
     font-style: italic;
-    font-weight: bold;
 }
 
 footer {
